@@ -33,4 +33,4 @@ In this challenge, participants will connect repos from GitHub to DagsHub that h
     - Add a directory named after the paper with its README file.
     - Commit and push the changes to GitHub.
     - Create a pull request on GitHub.
-- Optional: Share the project on DagsHub [Hacktoberfest Discord channel](https://discord.gg/xAGgkNht).
+- Optional: Connect the DagsHub repo to [Papers with Code](https://paperswithcode.com/).
