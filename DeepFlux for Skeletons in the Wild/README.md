@@ -12,7 +12,7 @@ DeepFlux for Skeletons in the Wild, CVPR 2019 [[Paper]](http://openaccess.thecvf
 
 - Caffe and VGG-16 pretrained model [[VGG_ILSVRC_16_layers.caffemodel]](http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel)
 
-- Datasets: [[SK-LARGE]](https://drive.google.com/file/d/1eBIjpzU0kttcKEesRJ2y29_yMcc03sbh/view?usp=sharing), [[SYM-PASCAL]](https://drive.google.com/file/d/1PSfksp7X9fhF0xZ9jOaMb0f4eUs8ED9j/view?usp=sharing)
+- Datasets: [[SK-LARGE]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/data/SK-LARGE), [[SYM-PASCAL]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/data/SymPASCAL-by-KZ)
 
 - OpenCV 3.4.3 (C++ or Python, optional)
 
@@ -78,21 +78,21 @@ cd evaluation/
 
 #### SK-LARGE
 
-| Backbone | F-measure  |                                                    Comment & Link                                                    |
-| :------: | :--------: | :------------------------------------------------------------------------------------------------------------------: | --------------------------------- | --- |
-|  VGG-16  |   0.732    | CVPR submission [[Google drive]](https://drive.google.com/file/d/1dYtxLqNgNRCTVnkL_2wzIvjWuRk363FM/view?usp=sharing) |
-|  VGG-16  |   0.735    |  different_lr [[Google drive]](https://drive.google.com/file/d/1nTYWYTdmcjrW74p-B9Hr-Qm9HvYgdI1x/view?usp=sharing)   |
-|  VGG-16  |   0.737    |   end-to-end [[Google drive]](https://drive.google.com/file/d/1YV9QGbcf68dttbzAnB0qZZU8P6KygmtX/view?usp=sharing)    |
-|   <!--   | ResNet-101 |                                                        0.752                                                         | different_lr [[Available soon]]() | --> |
+| Backbone | F-measure  |                                                       Comment & Link                                                       |
+| :------: | :--------: | :------------------------------------------------------------------------------------------------------------------------: | --------------------------------- | --- |
+|  VGG-16  |   0.732    |   CVPR submission [[Model]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/model/sklarge_iter_40000_CVPR.caffemodel)   |
+|  VGG-16  |   0.735    | different_lr [[Model]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/model/sklarge_iter_40000_DifferentLR.caffemodel) |
+|  VGG-16  |   0.737    | end-to-end [[Model]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/model/0.737_sklarge_iter_40000_end2end.caffemodel) |
+|   <!--   | ResNet-101 |                                                           0.752                                                            | different_lr [[Available soon]]() | --> |
 
 #### SYM-PASCAL
 
-| Backbone | F-measure  |                                                    Comment & Link                                                    |
-| :------: | :--------: | :------------------------------------------------------------------------------------------------------------------: | --------------------------------- | --- |
-|  VGG-16  |   0.502    | CVPR submission [[Google drive]](https://drive.google.com/file/d/1jtWk_7Vt-Gb8IrW3eaR7EuW8_uitgKE1/view?usp=sharing) |
-|  VGG-16  |   0.558    |  different_lr [[Google drive]](https://drive.google.com/file/d/1DCreuYWZ32SXYnJo9hgjtxzVJB2uICgI/view?usp=sharing)   |
-|  VGG-16  |   0.569    |   end-to-end [[Google drive]](https://drive.google.com/file/d/1Rz6FLqf4c3k-AoHDHuK-DsvIdNwREw95/view?usp=sharing)    |
-|   <!--   | ResNet-101 |                                                        0.584                                                         | different_lr [[Available soon]]() | --> |
+| Backbone | F-measure  |                                                        Comment & Link                                                        |
+| :------: | :--------: | :--------------------------------------------------------------------------------------------------------------------------: | --------------------------------- | --- |
+|  VGG-16  |   0.502    |   CVPR submission [[Model]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/model/sympascal_iter_40000_CVPR.caffemodel)   |
+|  VGG-16  |   0.558    | different_lr [[Model]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/model/sympascal_iter_40000_DifferentLR.caffemodel) |
+|  VGG-16  |   0.569    |     end-to-end [[Model]](https://dagshub.com/Bharat-mtr/DeepFlux/src/master/model/0.569_sympascal_iter_40000.caffemodel)     |
+|   <!--   | ResNet-101 |                                                            0.584                                                             | different_lr [[Available soon]]() | --> |
 
 > \*different_lr means different learning rates for backbone and additional layers
 
