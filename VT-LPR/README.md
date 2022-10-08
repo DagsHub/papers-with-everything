@@ -1,6 +1,6 @@
 # Vehicle and License Plate Recognition with Novel Dataset for Toll Collection
 
-<a href="https://dagshub.com/arnavr.neo/VT-LPR">The DagsHub Repo</a>
+### <a href="https://dagshub.com/arnavr.neo/VT-LPR">The DagsHub Repo</a>
 
 This repository is the implementation of Vehicle and License Plate Recognition with Novel Dataset for Toll Collection (VT-LPR). 
 
