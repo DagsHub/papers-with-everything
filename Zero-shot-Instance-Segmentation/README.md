@@ -57,7 +57,7 @@ python setup.py develop
     + **ZSI task**:
 
         - 48/17 split ZSI task:
-            - download [48/17](https://drive.google.com/file/d/1MMDcNWHjTTOaPvMYVlypMIXdvdOcSnao/view?usp=sharing) ZSI model, put it in checkpoints/ZSI_48_17.pth
+            - download [48/17](https://dagshub.com/f2010126/Zero-shot-Instance-Segmentation/src/main/checkpoints) ZSI model, put it in checkpoints/ZSI_48_17.pth
             
             - inference:
                 ```
@@ -75,7 +75,7 @@ python setup.py develop
                     python tools/zsi_coco_eval.py results/zsi_48_17.segm.json --ann data/coco/annotations/instances_val2014_unseen_48_17.json --types segm
                     ```
         - 65/15 split ZSI task:
-            - download [65/15](https://drive.google.com/file/d/1UZMNQ9a9Gpbn53JGPilzyjl1oiFYyPw5/view?usp=sharing) ZSI model, put it in checkpoints/ZSI_65_15.pth
+            - download [65/15](https://dagshub.com/f2010126/Zero-shot-Instance-Segmentation/src/main/checkpoints) ZSI model, put it in checkpoints/ZSI_65_15.pth
             
             - inference:
                 ```
