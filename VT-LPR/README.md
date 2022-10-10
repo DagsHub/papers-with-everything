@@ -107,3 +107,7 @@ python vt_lpr_gui.py
 <!--   <img src="results/single2.jpg" width="250" title="hover text"> -->
   <img src="https://github.com/arnavrneo/VT-LPR/blob/main/results/S_0002.jpg" width="220" title="hover text">
 </p>
+
+------------------------------------------------------------------------------------------------------------------------
+
+### *This open source contribution is part of [DagsHub x Hacktoberfest](https://dagshub.com/blog/dagshub-x-hacktoberfest-2022/)*.
