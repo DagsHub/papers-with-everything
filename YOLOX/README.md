@@ -1,6 +1,8 @@
 <div align="center"><img src="https://github.com/Megvii-BaseDetection/YOLOX/blob/main/assets/logo.png" width="350"></div>
 <img src="https://github.com/Megvii-BaseDetection/YOLOX/blob/main/assets/demo.png" >
 
+### <a href="https://dagshub.com/arnavr.neo/YOLOX">The DagsHub Repo</a>
+
 ## Introduction
 YOLOX is an anchor-free version of YOLO, with a simpler design but better performance! It aims to bridge the gap between research and industrial communities.
 For more details, please refer to our [report on Arxiv](https://arxiv.org/abs/2107.08430).
@@ -247,3 +249,7 @@ It is hoped that every AI practitioner in the world will stick to the concept of
 没有孙剑博士的指导，YOLOX也不会问世并开源给社区使用。
 孙剑博士的离去是CV领域的一大损失，我们在此特别添加了这个部分来表达对我们的“船长”孙老师的纪念和哀思。
 希望世界上的每个AI从业者秉持着“持续创新拓展认知边界，非凡科技成就产品价值”的观念，一路向前。
+
+------------------------------------------------------------------------------------------------------------------------
+
+### *This open source contribution is part of [DagsHub x Hacktoberfest](https://dagshub.com/blog/dagshub-x-hacktoberfest-2022/)*.
