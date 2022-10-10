@@ -1,7 +1,7 @@
 <div align="center"><img src="https://github.com/Megvii-BaseDetection/YOLOX/blob/main/assets/logo.png" width="350"></div>
 <img src="https://github.com/Megvii-BaseDetection/YOLOX/blob/main/assets/demo.png" >
 
-### <a href="https://dagshub.com/arnavr.neo/YOLOX">The DagsHub Repo</a>
+### Check out the repo on <a href="https://dagshub.com/arnavr.neo/YOLOX">DagsHub.</a>
 
 ## Introduction
 YOLOX is an anchor-free version of YOLO, with a simpler design but better performance! It aims to bridge the gap between research and industrial communities.
