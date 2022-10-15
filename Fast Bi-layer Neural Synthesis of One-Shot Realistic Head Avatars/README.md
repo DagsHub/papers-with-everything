@@ -4,6 +4,9 @@ A project on the speed up of one-shot adversarially trained human pose to image 
 
 <img src="https://saic-violet.github.io/bilayer-model/assets/teaser.png"/>
 
+
+[DagsHub Repository](https://dagshub.com/Bharat-mtr/bilayer-model)
+
 ## Installation
 
 * Python 3.7
