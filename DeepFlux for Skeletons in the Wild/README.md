@@ -38,9 +38,8 @@ Please refer to [Caffe Installation](http://caffe.berkeleyvision.org/install_apt
 
 ```bash
 
-# download datasets and pretrained model then
-mkdir data && mv [your_dataset_folder] data/
-mkdir model && mv [your_pretrained_model] model/
+# download vgg cafee model and put it inside model directory then
+
 # data augmentation
 cd data/[your_dataset_folder]
 matlab -nodisplay -r "run augmentation.m; exit"
@@ -53,7 +52,7 @@ matlab -nodisplay -r "run augmentation.m; exit"
 
 # an example on SK-LARGE dataset
 cd examples/DeepFlux/
-python train.py --gpu [your_gpu_id] --dataset sklarge --initmodel ../../models/VGG_ILSVRC_16_layers.caffemodel
+python train.py --gpu [your_gpu_id] --dataset sklarge --initmodel ../../model/VGG_ILSVRC_16_layers.caffemodel
 
 ```
 
