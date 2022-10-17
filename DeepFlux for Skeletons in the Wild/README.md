@@ -40,7 +40,7 @@ Please refer to [Caffe Installation](http://caffe.berkeleyvision.org/install_apt
 
 # download datasets and pretrained model then
 mkdir data && mv [your_dataset_folder] data/
-mkdir models && mv [your_pretrained_model] models/
+mkdir model && mv [your_pretrained_model] model/
 # data augmentation
 cd data/[your_dataset_folder]
 matlab -nodisplay -r "run augmentation.m; exit"
