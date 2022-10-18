@@ -75,16 +75,12 @@ The proposed framework is aim to automatically collect toll amount by end-to-end
 
 ## Test
 
-1. Download and extract trained model weights from [Google Drive](https://drive.google.com/file/d/1nGe7kQaKwKzzrvPYSd41ScuSuj2D33-C/view?usp=sharing). 
-
-``` #2x
-https://drive.google.com/file/d/1nGe7kQaKwKzzrvPYSd41ScuSuj2D33-C/view?usp=sharing
-```
+1. Download the model weights from <a href='https://dagshub.com/arnavr.neo/VT-LPR'>here</a> by ruuning `dvc pull -r origin`.
 
 2. Clone this repository
 
 ``` #2x
-!git clone https://github.com/usama-x930/VT-LPR.git
+!git clone https://github.com/arnavrneo/VT-LPR.git
 ```
 
 3. Put model weights in the downloaded folder.
