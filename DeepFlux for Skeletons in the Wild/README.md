@@ -67,7 +67,7 @@ cd evaluation/
 # inference with C++
 ./eval_cpp.sh ../../data/SK-LARGE/images/test ../../data/SK-LARGE/groundTruth/test ../../model/sklarge_iter_40000.caffemodel
 # inference with Python
-./eval_py.sh ../../data/SK-LARGE/images/test ../../data/SK-LARGE/groundTruth/test ../../models/sklarge_iter_40000.caffemodel
+./eval_py.sh ../../data/SK-LARGE/images/test ../../data/SK-LARGE/groundTruth/test ../../model/sklarge_iter_40000.caffemodel
 # inference with Python (end-to-end version)
 ./eval_py_e2e.sh ../../data/SK-LARGE/images/test ../../data/SK-LARGE/groundTruth/test ../../models/sklarge_iter_40000.caffemodel
 
