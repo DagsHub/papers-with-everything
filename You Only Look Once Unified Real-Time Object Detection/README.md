@@ -29,20 +29,20 @@ The things presented below are implemented differently from the paper.
 ### Tensorboard
 
 <div align="center">
-<a href="./preview/tb_scalars_val_aps.jpeg">
-<img src="./preview/tb_scalars_val_aps.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/tb_scalars_val_aps.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/tb_scalars_val_aps.jpeg" width="400" height="240">
 </a>
-<a href="./preview/tb_scalars_lr_losses.jpeg">
-<img src="./preview/tb_scalars_lr_losses.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/tb_scalars_lr_losses.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/tb_scalars_lr_losses.jpeg" width="400" height="240">
 </a>
 </div>
 
 <div align="center">
-<a href="./preview/tb_imgs_train.jpeg">
-<img src="./preview/tb_imgs_train.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/tb_imgs_train.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/tb_imgs_train.jpeg" width="400" height="240">
 </a>
-<a href="./preview/tb_imgs_val.jpeg">
-<img src="./preview/tb_imgs_val.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/tb_imgs_val.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/tb_imgs_val.jpeg" width="400" height="240">
 </a>
 </div>
 
@@ -51,20 +51,20 @@ The things presented below are implemented differently from the paper.
 ### Inference Visualization
 
 <div align="center">
-<a href="./preview/voc2007_test_sample01_viz.jpeg">
-<img src="./preview/voc2007_test_sample01_viz.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/voc2007_test_sample01_viz.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/voc2007_test_sample01_viz.jpeg" width="400" height="240">
 </a>
-<a href="./preview/voc2007_test_sample02_viz.jpeg">
-<img src="./preview/voc2007_test_sample02_viz.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/voc2007_test_sample02_viz.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/voc2007_test_sample02_viz.jpeg" width="400" height="240">
 </a>
 </div>
 
 <div align="center">
-<a href="./preview/voc2007_test_sample03_viz.jpeg">
-<img src="./preview/voc2007_test_sample03_viz.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/voc2007_test_sample03_viz.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/voc2007_test_sample03_viz.jpeg" width="400" height="240">
 </a>
-<a href="./preview/voc2007_test_sample04_viz.jpeg">
-<img src="./preview/voc2007_test_sample04_viz.jpeg" width="400" height="240">
+<a href="https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/preview/voc2007_test_sample04_viz.jpeg">
+<img src="https://github.com/Bharat-mtr/yolov1-tf2/blob/master/preview/voc2007_test_sample04_viz.jpeg" width="400" height="240">
 </a>
 </div>
 
@@ -114,7 +114,7 @@ pb file is uploaded as `tar.gz`. So, you have to decompress this file like below
 $ tar -zxvf yolo_voc_448x448.tar.gz
 ```
 
-If you want to inference with this pb file, infer to [inference_tutorial.ipynb](./inference_tutorial.ipynb)
+If you want to inference with this pb file, infer to [inference_tutorial.ipynb](https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/inference_tutorial.ipynb)
 
 <br>
 
@@ -157,7 +157,7 @@ If you want to inference with this pb file, infer to [inference_tutorial.ipynb](
 
 ## Training Script
 
-> Path: [./voc_scripts/train_voc.py](./voc_scripts/train_voc.py)
+> Path: [./voc_scripts/train_voc.py](https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/voc_scripts/train_voc.py)
 
 ```bash
 $ python train_voc.py
@@ -165,7 +165,7 @@ $ python train_voc.py
 
 **Options**  
 
-Default option values are [./configs/configs.py](./configs/configs.py).  
+Default option values are [./configs/configs.py](https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/configs/configs.py).  
 If the options are given, the default config values are overridden.  
 
 - `--epochs`: Number of training epochs
@@ -182,7 +182,7 @@ If the options are given, the default config values are overridden.
 
 ## Evaluation Script
 
-> Path: [./voc_scripts/eval_voc.py](./voc_scripts/eval_voc.py)
+> Path: [./voc_scripts/eval_voc.py](https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/voc_scripts/eval_voc.py)
 
 Evaluation pretrained model with VOC2008 Test Dataset
 
@@ -192,7 +192,7 @@ $ python eval_voc.py
 
 **Options**  
 
-- `--batch_size`: Evaluation batch size (Default: batch_size of [./configs/configs.py](./configs/configs.py).)
+- `--batch_size`: Evaluation batch size (Default: batch_size of [./configs/configs.py](https://dagshub.com/Bharat-mtr/yolov1-tf2/src/master/configs/configs.py).)
 - `--pb_dir`: Save pb directory path (Default: `./ckpts/voc_ckpts/yolo_voc_448x448`)
 
 <br><br>
