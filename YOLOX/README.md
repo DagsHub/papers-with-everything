@@ -75,7 +75,7 @@ This repo is an implementation of PyTorch version YOLOX, there is also a [MegEng
 
 Step1. Install YOLOX from source.
 ```shell
-git clone git@github.com:Megvii-BaseDetection/YOLOX.git
+git clone https://github.com/arnavrneo/YOLOX.git
 cd YOLOX
 pip3 install -v -e .  # or  python3 setup.py develop
 ```
@@ -107,7 +107,7 @@ python tools/demo.py video -n yolox-s -c /path/to/your/yolox_s.pth --path /path/
 <details>
 <summary>Reproduce our results on COCO</summary>
 
-Step1. Prepare COCO dataset
+Step1. Prepare COCO dataset:
 ```shell
 cd <YOLOX_HOME>
 ln -s /path/to/your/COCO ./datasets/COCO
@@ -151,19 +151,6 @@ On the second machine, run
 ```shell
 python tools/train.py -n yolox-s -b 128 --dist-url tcp://123.123.123.123:12312 --num_machines 2 --machine_rank 1
 ```
-
-**Logging to Weights & Biases**
-
-To log metrics, predictions and model checkpoints to [W&B](https://docs.wandb.ai/guides/integrations/other/yolox) use the command line argument `--logger wandb` and use the prefix "wandb-" to specify arguments for initializing the wandb run.
-
-```shell
-python tools/train.py -n yolox-s -d 8 -b 64 --fp16 -o [--cache] --logger wandb wandb-project <project name>
-                         yolox-m
-                         yolox-l
-                         yolox-x
-```
-
-An example wandb dashboard is available [here](https://wandb.ai/manan-goel/yolox-nano/runs/3pzfeom0)
 
 **Others**  
 See more information with the following command:
