@@ -107,7 +107,7 @@ python tools/demo.py video -n yolox-s -c /path/to/your/yolox_s.pth --path /path/
 <details>
 <summary>Reproduce our results on COCO</summary>
 
-Step1. Prepare COCO dataset from [DagsHub COCO Dataset](https://dagshub.com/Simon/COCO-2017) using `dvc import` command [more here](https://dvc.org/doc/command-reference/import).
+Step1. Prepare COCO dataset from [DagsHub COCO Dataset](https://dagshub.com/Simon/COCO-2017) using `dvc import` command <a href="https://dvc.org/doc/command-reference/import">(more here)</a>.
 
 Step2. Reproduce our results on COCO by specifying -n:
 
