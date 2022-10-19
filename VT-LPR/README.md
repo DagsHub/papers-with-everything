@@ -85,13 +85,12 @@ The proposed framework is aim to automatically collect toll amount by end-to-end
 
 2. Download the model weights by ruuning `dvc pull -r origin`.
 
-3. Put model weights in the downloaded folder.
-4. Run the Streamlit code file using:
+3. Run the Streamlit code file using:
 
 ``` #2x
 streamlit run streamlit_code.py
 ```
-5. Run PyQt5 GUI using this command.
+4. Run PyQt5 GUI using this command.
 
 
 ``` #2x
