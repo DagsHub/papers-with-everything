@@ -38,9 +38,11 @@ A [PyTorch](http://pytorch.org/) implementation of [A Light CNN for Deep Face Re
 ## Datasets
 - Download face dataset such as  CASIA-WebFace, VGG-Face and MS-Celeb-1M.
 	- The MS-Celeb-1M clean list is uploaded: [DAGsHub Link](https://dagshub.com/Bharat-mtr/LightCNN/src/master/data).
+- **NOTE :- THE DATASET POINTED ABOVE HAS BEEN RETRACTED BY THE AUTHORS AND IS NO LONGER AVAILABLE.**
 - All face images are converted to gray-scale images and normalized to **144x144** according to landmarks. 
 - According to the five facial points, we not only rotate two eye points horizontally but also set the distance between the midpoint of eyes and the midpoint of mouth(ec_mc_y), and the y axis of midpoint of eyes(ec_y) .
 - The aligned LFW images are uploaded on [Baidu Yun](https://pan.baidu.com/s/1eR6vHFO).
+- **THE ABOVE BAIDU YUN LINK IS HARD TO ACCESS (WILL APPRECIATE CONTRIBUTIONS WITH IT)**
   
   Dataset     | size    |  ec_mc_y  | ec_y  
   :----| :-----: | :----:    | :----: 
