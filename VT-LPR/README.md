@@ -77,13 +77,13 @@ The proposed framework is aim to automatically collect toll amount by end-to-end
 
 ## Test
 
-1. Download the model weights from <a href='https://dagshub.com/arnavr.neo/VT-LPR'>here</a> by ruuning `dvc pull -r origin`.
-
-2. Clone this repository
+1. Clone this repository
 
 ``` #2x
 !git clone https://github.com/arnavrneo/VT-LPR.git
 ```
+
+2. Download the model weights by ruuning `dvc pull -r origin`.
 
 3. Put model weights in the downloaded folder.
 4. Run the Streamlit code file using:
