@@ -31,6 +31,9 @@ For help contact `afluo [a.t] andrew.cmu.edu` or open an issue
    * 1 Nvidia GPU
   
 Download checkpoints [here](https://dagshub.com/Bharat-mtr/3D_SLN/src/master/model_weight), download metadata [here](https://dagshub.com/Bharat-mtr/3D_SLN/src/master/data_file)
+
+UPDATE:- The metadata available above cooresponds to SUNCG dataset which is [no longer available](https://github.com/DLR-RM/BlenderProc/issues/11). SUNCG dataset can be replaced with 3DFront dataset which can be requested and downloaded from [here](https://tianchi.aliyun.com/dataset/dataDetail?dataId=65347&lang=en-us). 
+
 ```
 Project structure
 |-3d_SLN
