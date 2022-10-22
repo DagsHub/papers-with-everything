@@ -2,7 +2,7 @@
 
 Rendered video without training on the scene.
 
-![](assets/desktop.gif)
+![](https://github.com/Bharat-mtr/NeuRay/blob/main/assets/desktop.gif)
 
 ## [Project page](https://liuyuan-pal.github.io/NeuRay/) | [Paper](https://arxiv.org/abs/2107.13421)
 
@@ -35,7 +35,15 @@ pip install -r requirements.txt
 ### Download datasets and pretrained models
 1. Download processed datasets: [DTU-Test](https://dagshub.com/Bharat-mtr/NeuRay/src/main/data/dtu_test) / [LLFF](https://dagshub.com/Bharat-mtr/NeuRay/src/main/data/llff_colmap) / [NeRF Synthetic](https://dagshub.com/Bharat-mtr/NeuRay/src/main/data/nerf_synthetic).
 2. Download pretrained model [NeuRay-Depth](https://dagshub.com/Bharat-mtr/NeuRay/src/main/model/neuray_gen_depth) and [NeuRay-CostVolume](https://dagshub.com/Bharat-mtr/NeuRay/src/main/model/neuray_gen_cost_volume).
-3. Organize datasets and models as follows
+
+3. You can use DagsHub and dvc commands to pull the model and data folder for the corresponding DagsHub repository.
+   Chackout [How to connect to DagsHub Storage](https://dagshub.com/docs/feature_guide/dagshub_storage/) & run 
+   ```
+   dvc pull -r origin
+   ```
+   to get the data and model folder.
+   
+4. Organize datasets and models as follows
 ```
 NeuRay
 |-- data
