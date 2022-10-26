@@ -21,7 +21,7 @@ In this challenge, participants will connect repos from GitHub to DagsHub that h
 
 ## ****How to contribute?****
 
-- Claim a paper you wish to contribute from the SOTA [3D](https://paperswithcode.com/area/computer-vision/3d) or [object-detection](https://paperswithcode.com/area/computer-vision/object-detection) papers (KUDOS to [Papers With Code](https://paperswithcode.com/)) by opening a new issue on the [GitHub repository](https://github.com/DagsHub/3D-model-datasets) and name it after the paper. **Please make sure that the paper wasn't claimed**.
+- Claim a paper you wish to contribute from the SOTA [3D](https://paperswithcode.com/area/computer-vision/3d) or [object-detection](https://paperswithcode.com/area/computer-vision/object-detection) papers (KUDOS to [Papers With Code](https://paperswithcode.com/)) by opening a new issue on the [GitHub repository](https://github.com/DagsHub/papers-with-everything) and name it after the paper. **Please make sure that the paper wasn't claimed**.
 - [Connect the paper’s repository from GitHub to DagsHub](https://dagshub.com/docs/integration_guide/github/).
 - Upload the data and model to its [DagsHub storage](https://dagshub.com/docs/feature_guide/dagshub_storage/).
 - Add relevant tags to the repository and files.
