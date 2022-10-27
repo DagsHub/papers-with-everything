@@ -1,14 +1,14 @@
 # Detection of Small Flying Objects in UAV Videos
 
+Refer to the [DagsHub repository](https://dagshub.com/tze-min/Detection-of-Small-Flying-Objects-in-UAV-Videos), where the data and models are tracked.
+
 This repository contains the code used in implementation of the paper Vladan Stojnić, Vladimir Risojević, Mario Muštra, Vedran Jovanović, Janja Filipi, Nikola Kezić, and Zdenka Babić, [\"A Method for Detection of Small Moving Objects in UAV Videos\"](https://www.mdpi.com/2072-4292/13/4/653), published in Remote Sensing.
 
-Dataset with used videos can be obtained at https://doi.org/10.5281/zenodo.4400650 .
+Dataset with used videos can be obtained from Zenodo [here](https://doi.org/10.5281/zenodo.4400650) or from the the `data` folder of the DagsHub repository [here](https://dagshub.com/tze-min/Detection-of-Small-Flying-Objects-in-UAV-Videos/src/main/data).
 
 Code was implemented using Python 3.6. To run the code please create Anaconda environment using dependancies defined in *bee4exp.yml*.
 
 Main parts of our code are implemented in following python scripts.
-
-Note: Another version of this repository where changes to the datasets and models are tracked is available at DagsHub [here](https://dagshub.com/tze-min/Detection-of-Small-Flying-Objects-in-UAV-Videos).
 
 ## Stabilization
 
