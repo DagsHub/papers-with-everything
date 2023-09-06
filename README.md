@@ -1,6 +1,6 @@
 # Papers With Everything
 
-[Hacktoberfest](https://hacktoberfest.com) is a month-long virtual festival of open source! Participants are giving back to the community by completing pull requests, participating in events, and donating to open-source projects. This project is part of Hacktoberfest 2022, where **participants enrich the [Open Source Data Science](https://dagshub.com/blog/a-case-for-open-source-data-science/) domain by adding datasets and models to existing code repos.**
+[Hacktoberfest](https://hacktoberfest.com) is a month-long virtual festival of open source! Participants are giving back to the community by completing pull requests, participating in events, and donating to open-source projects. This project is part of Hacktoberfest, where **participants enrich the [Open Source Data Science](https://dagshub.com/blog/a-case-for-open-source-data-science/) domain by adding datasets and models to existing code repos.**
 
 ![banner](https://user-images.githubusercontent.com/66431403/193002906-e50617ad-bb9d-4942-98c1-7b9684df9ddc.png)
 
