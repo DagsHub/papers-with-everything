@@ -4,6 +4,10 @@
 
 ![banner](https://user-images.githubusercontent.com/66431403/193002906-e50617ad-bb9d-4942-98c1-7b9684df9ddc.png)
 
+## What is DagsHub?
+
+[DagsHub](https://dagshub.com/) is a centralized platform to host and manage machine learning projects including code, data, models, experiments, annotations, model registry, and more! DagsHub does the MLOps heavy lifting for its users. Every repository comes with configured S3 storage, an experiment tracking server, and an annotation workspace - all using popular open-source tools like MLflow, DVC, Git, and Label Studio.
+
 ## **Quick Start to Contribution**
 
 - Sign-up to [Hacktoberfest](https://hacktoberfest.com/auth/) & [DagsHub](https://dagshub.com/user/sign_up?redirect_to=).
