@@ -1,4 +1,4 @@
-# Papers With Everything
+            # Papers With Everything
 
 [Hacktoberfest](https://hacktoberfest.com) is a month-long virtual festival of open source! Participants are giving back to the community by completing pull requests, participating in events, and donating to open-source projects. This project is part of Hacktoberfest, where **participants enrich the [Open Source Data Science](https://dagshub.com/blog/a-case-for-open-source-data-science/) domain by adding datasets and models to existing code repos.**
 
@@ -32,7 +32,7 @@ In this challenge, participants will connect repos from GitHub to DagsHub that h
 - Add the following labels to the repository:
     - `3D Model` / `object detection`
     - `hacktoberfest`
-- In the GitHub papers-with-everything project:
+- In the [GitHub papers-with-everything project](https://github.com/DagsHub/papers-with-everything):
     - Open a new branch named after the paper.
     - Add a directory named after the paper with its README file.
     - Commit and push the changes to GitHub.
